@@ -867,7 +867,6 @@
 			var isTalkEnabled = oc_appswebroots['spreed'] !== undefined;
 			var sendPasswordByTalk = share.sendPasswordByTalk;
 
-			var showHideDownloadCheckbox = !this.model.isFolder();
 			var hideDownload = share.hideDownload;
 
 			var maxDate = null;
@@ -904,7 +903,6 @@
 				shareNote: share.note,
 				hasNote: share.note !== '',
 				maxDate: maxDate,
-				showHideDownloadCheckbox: showHideDownloadCheckbox,
 				hideDownload: hideDownload,
 				isExpirationEnforced: isExpirationEnforced,
 			}
